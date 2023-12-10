@@ -29,7 +29,7 @@
 
 # version [0.0.1][4]
 
-A [Blender][5] [add-ons][6] which allows you to import materials and colors/transparencies from a .FCStd file
+A [Blender][5] [add-ons][6] which allows you to import shape and materials from a .FCStd file.
 
 ## Introduction:
 
@@ -61,9 +61,9 @@ I am required to present a realistic photo of my future house for my building pe
 I managed to draw the basic plan of this famous house in FreeCAD. I now need to be able to produce this realistic photo.  
 After several attempts in FreeCAD I had to resort to using Blender to be able to produce this famous realistic photo.  
 In order to make this work easier, I decided to make the two softwares FreeCAD and Blender interoperable.  
-This interoperability is achieved thanks to the FreeCAD **Blender Importer** workbench and the Blender **FreeCAD Importer** add-ons.
+This interoperability is achieved thanks to the FreeCAD **[Blender Importer][13]** workbench and the Blender **FreeCAD Importer** add-ons.
 
-More information on this [forum thread][13]
+More information on this [forum thread][14]
 
 [1]: <https://prrvchr.github.io/FreeCAD-Importer/img/freecad-importer.svg#collapse>
 [2]: <https://prrvchr.github.io/FreeCAD-Importer/>
@@ -77,4 +77,5 @@ More information on this [forum thread][13]
 [10]: <https://prrvchr.github.io/FreeCAD-Importer/img/freecad.svg#middle>
 [11]: <https://github.com/prrvchr/FreeCAD-Importer/releases/latest/download/FreeCAD-Importer.zip>
 [12]: <https://img.shields.io/github/downloads/prrvchr/FreeCAD-Importer/latest/total?label=v0.0.1#right>
-[13]: <https://forum.freecad.org/viewtopic.php?t=83135>
+[13]: <https://prrvchr.github.io/Blender-Importer/README_fr>
+[14]: <https://forum.freecad.org/viewtopic.php?t=83135>
