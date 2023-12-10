@@ -29,7 +29,7 @@
 
 # version [0.0.1][4]
 
-A [Blender][5][add-ons][6] which allows you to import materials and colors/transparencies from a .FCStd file
+A [Blender][5] [add-ons][6] which allows you to import materials and colors/transparencies from a .FCStd file
 
 ## Introduction:
 
