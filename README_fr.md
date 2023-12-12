@@ -68,7 +68,7 @@ Plus d'informations sur ce [fil de discussion][14] (en anglais)
 [1]: <https://prrvchr.github.io/FreeCAD-Importer/img/freecad-importer.svg#collapse>
 [2]: <https://prrvchr.github.io/FreeCAD-Importer/README_fr>
 [3]: <https://prrvchr.github.io/FreeCAD-Importer/>
-[4]: <https://prrvchr.github.io/FreeCAD-Importer/#historique>
+[4]: <https://prrvchr.github.io/FreeCAD-Importer/README_fr#historique>
 [5]: <https://docs.blender.org/manual/fr/dev/editors/preferences/addons.html>
 [6]: <https://www.blender.org>
 [7]: <https://prrvchr.github.io/README_fr>
