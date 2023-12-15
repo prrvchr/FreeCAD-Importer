@@ -46,7 +46,7 @@ bl_info = {'name':        'FreeCAD-Importer',
            'description': 'Imports files from FreeCAD. Only Part and Mesh objects are supported.'}
 
 
-class IMPORT_OT_FreeCAD(bpy.types.Operator, ImportHelper):
+class ImportFreeCAD(bpy.types.Operator, ImportHelper):
 
     """Imports the contents of a FreeCAD .FCStd file"""
     bl_idname =  'import_fcstd.import_freecad'
@@ -106,7 +106,7 @@ class IMPORT_OT_FreeCAD(bpy.types.Operator, ImportHelper):
         return {'FINISHED'}
 
 
-class IMPORT_OT_FreeCAD_Preferences(bpy.types.AddonPreferences):
+class ImportPreferences(bpy.types.AddonPreferences):
     """A preferences settings dialog to set the path to the FreeCAD document"""
     bl_idname = __name__
 
@@ -119,7 +119,7 @@ class IMPORT_OT_FreeCAD_Preferences(bpy.types.AddonPreferences):
         layout.prop(self, 'dirpath')
 
 
-class GU_PT_collection_custom_properties(bpy.types.Panel, PropertyPanel): 
+class CustomProperties(bpy.types.Panel, PropertyPanel): 
     _context_path = 'collection'
     _property_type = bpy.types.Collection
     bl_label = 'Custom Properties'
@@ -131,13 +131,13 @@ class GU_PT_collection_custom_properties(bpy.types.Panel, PropertyPanel):
 
 # register plugin with Blender
 
-classes = (IMPORT_OT_FreeCAD,
-           IMPORT_OT_FreeCAD_Preferences,
-           GU_PT_collection_custom_properties)
+classes = (ImportFreeCAD,
+           ImportPreferences,
+           CustomProperties)
 
 # needed if you want to add into a dynamic menu
 def _menuImport(self, context):
-    self.layout.operator(IMPORT_OT_FreeCAD.bl_idname, text='FreeCAD (.FCStd)')
+    self.layout.operator(ImportFreeCAD.bl_idname, text='FreeCAD (.FCStd)')
 
 
 def register():
