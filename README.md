@@ -27,7 +27,7 @@
 
 **Ce [document][3] en français.**
 
-# version [0.0.1][4]
+# version [0.0.2][4]
 
 A [Blender][5] [add-ons][6] which allows you to import shape and materials from a .FCStd file.
 
@@ -76,6 +76,6 @@ More information on this [forum thread][14]
 [9]: <https://github.com/prrvchr/FreeCAD-Importer/issues/new>
 [10]: <https://prrvchr.github.io/FreeCAD-Importer/img/freecad.svg#middle>
 [11]: <https://github.com/prrvchr/FreeCAD-Importer/releases/latest/download/FreeCAD-Importer.zip>
-[12]: <https://img.shields.io/github/downloads/prrvchr/FreeCAD-Importer/latest/total?label=v0.0.1#right>
+[12]: <https://img.shields.io/github/downloads/prrvchr/FreeCAD-Importer/latest/total?label=v0.0.2#right>
 [13]: <https://prrvchr.github.io/Blender-Importer/README_fr>
 [14]: <https://forum.freecad.org/viewtopic.php?t=83135>
